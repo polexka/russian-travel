@@ -1,0 +1,29 @@
+.intro {
+  margin: 92px auto 92px calc(50vw - 492px);
+  padding: 0;
+  min-height: 429px;
+  max-width: 690px;
+}
+
+@media all and (max-width: 1080px) {
+  .intro {
+    margin: 92px auto 92px 48px;
+    transition: margin 0.5s ease;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .intro {
+    margin: 92px 24px;
+    max-width: 720px;
+    transition: margin 0.5s ease;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .intro {
+    margin: 92px 16px;
+    max-width: 288px;
+    transition: margin 0.5s ease;
+  }
+}

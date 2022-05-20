@@ -1,18 +1,30 @@
 .header__logo {
   padding: 0;
-  margin: 0;
+  margin: 28px 0 0;
   width: 176px;
   height: 52px;
   background-image: url(../../../images/header-logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
 }
 
-@media all and (max-width: 425px) {
+@media screen and (max-width: 1279px) {
   .header__logo {
-    min-width: 142px;
-    min-height: 42px;
-    transition: all 0.5s ease;
+    margin: 28px 0 0 48px;
   }
 }
+
+@media all and (max-width: 1023px) {
+  .header__logo {
+    margin: 28px 0 0 24px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header__logo {
+    margin: 16px 0 0 16px;
+    width: 142px;
+    height: 42px;
+  }
+}
+

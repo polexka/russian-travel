@@ -1,16 +1,33 @@
 .intro__title {
-  margin: 0 0 40px;
+  margin: 92px auto 40px calc(50vw - 492px);
   padding: 0;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  transition: all 0.5s ease;
+}
+
+@media all and (max-width: 1080px) {
+  .intro__title {
+    margin-left: 48px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .intro__title {
+    margin: 88px 24px 40px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .intro__title {
+    margin: 64px 24px 40px;
+  }
 }
 
 @media all and (max-width: 425px) {
   .intro__title {
+    margin: 64px 16px 40px;
     font-size: 32px;
     line-height: 35px;
-    transition: all 0.5s ease;
   }
 }

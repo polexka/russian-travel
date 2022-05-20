@@ -9,7 +9,11 @@
   gap: 48px 40px;
 }
 
-.place:last-child {
+.place:first-of-type {
+  margin-top: 92px;
+}
+
+.place:last-of-type {
   margin-bottom: 0;
 }
 
@@ -27,25 +31,22 @@
     max-width: 720px;
     row-gap: 28px;
     margin-bottom: 73px;
+  }
 
+  .place:first-of-type {
+    margin-top: 88px;
   }
 }
 
 @media all and (max-width: 767px) {
   .place {
-    grid-template-columns: 1fr;
-    max-width: 425px;
-    row-gap: 28px;
-    margin-bottom: 73px;
-
-  }
-}
-
-@media all and (max-width: 425px) {
-  .place {
     grid-template-columns: 100vw;
     max-width: 100%;
     row-gap: 32px;
     margin-bottom: 50px;
+  }
+
+  .place:first-of-type {
+    margin-top: 64px;
   }
 }

@@ -3,7 +3,7 @@
   padding: 0;
   max-width: 640px;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   font-weight: 400;
   text-align: center;
 }
@@ -12,7 +12,6 @@
   .lead__subtitle {
     margin-top: 16px;
     max-width: 80vw;
-    font-weight: 400;
     font-size: 23px;
     line-height: 1.25;
   }
@@ -21,8 +20,6 @@
 @media all and (max-width: 425px) {
   .lead__subtitle {
     max-width: 288px;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.25;
   }
 }

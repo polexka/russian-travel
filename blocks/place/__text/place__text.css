@@ -1,0 +1,16 @@
+.place__text {
+  margin: 0 0 80px;
+}
+
+@media all and (max-width: 1023px) {
+  .place__text {
+    margin: 0 0 73px;
+  }
+}
+
+
+@media all and (max-width: 767px) {
+  .place__text {
+    margin: 0 0 50px;
+  }
+}

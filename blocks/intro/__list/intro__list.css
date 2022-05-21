@@ -12,18 +12,18 @@
 
 @media all and (max-width: 1023px) {
   .intro__list {
-    margin: 0 24px 92px;
+    margin: 0 24px 88px;
   }
 }
 
 @media all and (max-width: 767px) {
   .intro__list {
-    margin: 0 24px 92px;
+    margin: 0 24px 64px;
   }
 }
 
 @media all and (max-width: 425px) {
   .intro__list {
-    margin: 0 16px 92px;
+    margin: 0 16px 64px; 
   }
 }

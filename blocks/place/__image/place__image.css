@@ -1,6 +1,19 @@
 .place__image {
+  margin: 0 0 80px;
   width: 100%;
   max-height: 100%;
   object-fit: cover;
   box-sizing: border-box;
+}
+
+@media all and (max-width: 1023px) {
+  .place__image {
+    margin: 0 0 73px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .place__image {
+    margin: 0;
+  }
 }

@@ -1,5 +1,5 @@
 .cover__link {
-  margin: 92px 0;
+  margin: 12px 0 92px;
   width: 100%;
   min-height: 740px;
   display: flex;
@@ -35,14 +35,14 @@
 
 @media all and (max-width: 1023px) {
   .cover__link {
-    margin: 88px 0;
+    margin: 18px 0 88px;
     min-height: 480px;
   }
 }
 
 @media all and (max-width: 500px) {
   .cover__link {
-    margin: 66px 0 64px;
+    margin: 16px 0 64px;
     min-height: 200px;
   }
 }

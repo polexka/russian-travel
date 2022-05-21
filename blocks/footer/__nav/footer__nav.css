@@ -17,5 +17,6 @@
 @media all and (max-width: 767px) {
   .footer__nav {
     margin-left: 16px;
+    margin-bottom: 0;
   }
 }

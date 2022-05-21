@@ -1,6 +1,6 @@
 .photo-grid__items {
-  margin: 0;
-  font-size: 0;
+  margin: 0 0 92px;
+  padding: 0;
   list-style: none;
   box-sizing: border-box;
   display: grid;
@@ -19,7 +19,7 @@
 
 @media all and (max-width: 1023px){
   .photo-grid__items {
-    margin: 0 24px;
+    margin: 0 24px 88px;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
@@ -27,7 +27,7 @@
 
 @media all and (max-width: 425px) {
   .photo-grid__items {
-    margin: 0 16px;
+    margin: 0 16px 64px;
     grid-template-columns: 1fr;
     gap: 12px;
   }
